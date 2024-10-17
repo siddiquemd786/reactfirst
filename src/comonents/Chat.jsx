@@ -51,7 +51,7 @@ const Chat = () => {
 
 </div> }
 
-  <button onClick={Handaler} className={`text-[55px] font-[700] flex justify-center  items-center h-[77px] w-[77px] absolute left-[1485px] py-[40px] rounded-full px-6 top-[1020px] ${(isvisiable===true? "bg-white text-black":"bg-secondary text-white")}`}> {isvisiable===true? "X":"C"} </button>
+  <button onClick={Handaler} className={`text-[55px] font-[700] flex justify-center  items-center h-[77px] w-[77px] absolute left-[1355px] py-[40px] rounded-full px-6 top-[1020px] ${(isvisiable===true? "bg-white text-black":"bg-secondary text-white")}`}> {isvisiable===true? "X":"C"} </button>
    
    
 
