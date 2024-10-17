@@ -1,5 +1,6 @@
 import React from 'react'
-import Button from '../comonents/Button'
+import { NavLink } from 'react-router-dom'
+
 
 const Navbar = () => {
     
@@ -12,13 +13,17 @@ const Navbar = () => {
           
            <ul className='flex-col w-[574px]  h-[18px] flex  md:flex-row  lg:justify-between items-start md:items-center text-Primary gap-2 md:gap-4 mt-20 md:mt-0'>
             <li>
-            <a href=""><span className='text-dashcolor text-[12px] md:text-[14px] font-[700]'>Dashboard</span></a>
+            <a href=""></a>
             </li>
-            <li><a href="">Incidents</a></li>
-            <li><a href="">Locations</a></li>
-            <li> <a href="">Activities</a></li>
-            <li> <a href="">Documents</a></li>
-            <li> <a href="">Cypher AI</a></li>
+
+            <li> <NavLink><span className='text-dashcolor text-[12px] md:text-[14px] font-[700]'>Dashboard</span></NavLink>        </li>
+            <li>   <NavLink to="/Incidents">Incidents</NavLink>        </li>
+            <li>   <NavLink >Locations</NavLink>        </li>
+            <li>   <NavLink >Activities</NavLink>        </li>
+            <li>   <NavLink >Documents</NavLink>        </li>
+            <li>   <NavLink >Cypher AI</NavLink>        </li>
+            
+           
 
            </ul>
            
