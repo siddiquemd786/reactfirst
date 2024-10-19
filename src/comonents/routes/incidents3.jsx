@@ -1,9 +1,14 @@
 import React from 'react'
 
-const incidents3 = () => {
+const Incidents3 = () => {
   return (
-    <div>incidents3</div>
+    <>
+    
+<h1>Hello</h1>
+    
+    
+    </>
   )
 }
 
-export default incidents3
+export default Incidents3
