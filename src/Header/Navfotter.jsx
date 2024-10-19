@@ -1,10 +1,16 @@
 import React from 'react'
-import Button from '../comonents/Button'
+
 import Navtitle from './Navtitle'
 import Search from './Search';
+import { useNavigate } from 'react-router-dom';
 
 
 const Navfotter = () => {
+
+  const Navigate=useNavigate()
+  const HandalerClick=()=>{
+    Navigate("/incidents")
+  }
 
    const newTitle = "Welcome!";
    const newText = "Dashboard";
@@ -17,7 +23,7 @@ const Navfotter = () => {
          
       </div>
         <Search/>
-        <div> <Button>Cypher AI</Button></div>
+        <div> <button onClick={HandalerClick}  className='bg-secondary  h-[42px] w-[120px] py-2 text-white font-[700] text-[15px] rounded-md '> Cypher AI</button></div>
 
     
     </nav>
