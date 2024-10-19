@@ -45,14 +45,14 @@ const Cards = () => {
 
   return (
     <div className='md:w-[1304px]'>
-        <div className="w-[1304px] ml-[-35px]  md:h-[709px] md:mt-10  flex   flex-wrap gap-6">
+        <div className="w-[1304px] md:ml-[-35px]  md:h-[709px] md:mt-10 grid grid-cols-1  md:flex   flex-wrap gap-6">
           
       {images.map((data) => (
         <div
           key={data.id}
-          className="md:w-[306px] md:h-[337px] "
+          className="md:w-[306px] md:h-[337px]  "
         >
-          <div className="md:w-[306px] rounded-2xl md:h-[253px] ">
+          <div className="md:w-[306px] rounded-2xl md:h-[253px]  ">
             {data.image}
           </div>
           <h6 className="text-dashcolor text-[16px] text-start font-[700]">

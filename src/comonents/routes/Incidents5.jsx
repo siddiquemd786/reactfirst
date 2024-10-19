@@ -30,7 +30,7 @@ Navigate("/")
 
     <div className='flex justify-between gap-[14px] '>
         <button onClick={Handaler} className='w-[139px] h-[42px] rounded-[6px] border-2'>Back</button>
-        <button onClick={HandalerClick} className='w-[139px] h-[42px] rounded-[6px] bg-secondary text-white'>Next Step</button>
+        <button onClick={HandalerClick} className='w-[139px] h-[42px] rounded-[6px] bg-secondary text-white'>Finished</button>
     </div>
    </nav>
 
