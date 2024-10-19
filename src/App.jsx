@@ -7,6 +7,8 @@ import Chat from './comonents/Chat';
 import Incidents from './comonents/routes/Incidents';
 import Incidents2 from './comonents/routes/Incidents2';
 import Incidents3 from './comonents/routes/incidents3';
+import Incidents4 from './comonents/routes/Incidents4';
+import Incidents5 from './comonents/routes/Incidents5';
 
 
 function MainLayout() {
@@ -30,6 +32,8 @@ function App() {
         <Route path="/incidents" element={<Incidents />} />
         <Route path="/Incidents2" element={<Incidents2 />} />
         <Route path="/Incidents3" element={<Incidents3 />} />
+        <Route path="/Incidents4" element={<Incidents4/>} />
+        <Route path="/Incidents5" element={<Incidents5/>} />
        
       </Routes>
     </BrowserRouter>
