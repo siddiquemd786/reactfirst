@@ -106,6 +106,9 @@ const Navigate=useNavigate();
 const Handaler=()=>{
     Navigate("/Incidents2")
 }
+const HandalerClick=()=>{
+  Navigate("/Incidents4")
+}
 
   return (
 
@@ -124,7 +127,7 @@ const Handaler=()=>{
 
     <div className='flex justify-between gap-[14px] '>
         <button onClick={Handaler} className='w-[139px] h-[42px] rounded-[6px] border-2'>Back</button>
-        <button className='w-[139px] h-[42px] rounded-[6px] bg-secondary text-white'>Next Step</button>
+        <button onClick={HandalerClick} className='w-[139px] h-[42px] rounded-[6px] bg-secondary text-white'>Next Step</button>
     </div>
    </nav>
    <div className='w-[753px] h-[445px] font-Onest gap-[25px] absolute left-[410px] top-[220px]'>
