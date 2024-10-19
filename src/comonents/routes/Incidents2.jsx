@@ -1,8 +1,18 @@
 import React from 'react'
 import Navbar from '../../Header/Navbar'
-import { NavLink } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
+
 
 const Incidents2 = () => {
+
+const Navigate=useNavigate();
+
+const HandalerClick=()=>{
+  Navigate("/Incidents3")
+}
+
+
+
   return (
     <>
     <Navbar/>
@@ -32,7 +42,7 @@ const Incidents2 = () => {
         </div>
     </div>
     
-    <button   className='bg-secondary absolute left-[700px] top-[650px] px-4 h-[42px] w-[139px] py-2 text-white text-[700] text-[15px] rounded-md '> <li>          </li>Get started</button>
+    <button onClick={HandalerClick}  className='bg-secondary absolute left-[700px] top-[650px] px-4 h-[42px] w-[139px] py-2 text-white font-[700] text-[15px] rounded-md '> Get started</button>
     
     </>
   )
