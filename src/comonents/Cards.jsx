@@ -11,7 +11,7 @@ const Cards = () => {
     },
     {
       id: 2, 
-      image: <img src="./image/rec.png" alt="Card Image" />,
+      image: <img src="./image/rec2.png" alt="Card Image" />,
       h6:" Whitechapel Rd.",
       p:"Tulare County, Los Angeles, CA 23415",
       h5:"$1,456,654.00"
