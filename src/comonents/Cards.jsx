@@ -46,6 +46,7 @@ const Cards = () => {
   return (
     <div className='md:w-[1304px]'>
         <div className="w-[1304px] ml-[-35px]  md:h-[709px] md:mt-10  flex   flex-wrap gap-6">
+          
       {images.map((data) => (
         <div
           key={data.id}
