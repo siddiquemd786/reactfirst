@@ -6,7 +6,7 @@ const Navbar = () => {
     
   return (
   
-<nav className='md:w-[1269px]   h-[41px]  flex justify-between items-center'>
+<nav id='Navbar' className='md:w-[1269px]   h-[41px]  flex justify-between items-center'>
         <div className='w-[131px] h-[36px] flex justify-center '  > <img src="./image/logo.jpg" alt="" /> </div>
         
         <div className='md:static absolute '>

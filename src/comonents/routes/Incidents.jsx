@@ -24,13 +24,13 @@ const Incidents = () => {
   return (
     <>
       <Navbar />
-      <nav className="max-w-[1269px] md:mt-2 mt-64 p-4 flex flex-col md:flex-row justify-between items-center border-t-2 md:gap-4">
+      <nav className="max-w-[1269px] md:mt-2 mt-64 mg:p-4 flex flex-col md:flex-row justify-between md:items-center border-t-2 gap-28 md:gap-4">
         <div className="md:w-[137px] w-[54px]">
           <Navtitle title={newTitle} text={newText} />
         </div>
         <Search />
        
-        <button onClick={handler} className='bg-secondary px-2 py-2 text-white text-[700] text-[15px] rounded-md '>+ New Incidents</button>
+        <button onClick={handler} className='bg-secondary w-[144px] mb-6 md:mb-0 px-2 py-2 text-white text-[700] text-[15px] rounded-md '>+ New Incidents</button>
       </nav>
       <Cards />
     </>
