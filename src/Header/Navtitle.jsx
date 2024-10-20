@@ -11,4 +11,5 @@ function Navtitle({title, text}) {
   )
 }
 
+
 export default Navtitle
