@@ -42,8 +42,10 @@ const HandalerClick=()=>{
         </div>
     </div>
     
-    <button onClick={HandalerClick}  className='bg-secondary absolute left-[700px] top-[650px] px-4 h-[42px] w-[139px] py-2 text-white font-[700] text-[15px] rounded-md '> Get started</button>
+    <div className=''>
+    <button onClick={HandalerClick}  className='bg-secondary absolute left-[180px] top-[1280px]  md:left-[700px] md:top-[650px] px-4 h-[42px] w-[139px] py-2 text-white font-[700] mb-5 text-[15px] rounded-md '> Get started</button>
     
+    </div>
     </>
   )
 }

@@ -18,7 +18,7 @@ const Navbar = () => {
 
             <li> <NavLink to="/"><span className='text-dashcolor text-[12px] md:text-[14px] font-[700]'>Dashboard</span></NavLink>        </li>
             <li>   <NavLink to="/Incidents">Incidents</NavLink>        </li>
-            <li>   <NavLink >Locations</NavLink>        </li>
+            <li>   <NavLink to="/Incidents6">Locations</NavLink>        </li>
             <li>   <NavLink >Activities</NavLink>        </li>
             <li>   <NavLink >Documents</NavLink>        </li>
             <li>   <NavLink >Cypher AI</NavLink>        </li>

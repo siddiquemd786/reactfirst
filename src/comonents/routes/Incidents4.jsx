@@ -19,7 +19,7 @@ const HandalerClick=()=>{
    <>
    <div className='font-Onest'>
  <Navbar/>
- <nav className="max-w-[1269px] mx-auto  md:mt-2 mt-64  p-4 flex flex-col font-Onest  md:flex-row justify-between items-center border-t-2 md:gap-4">
+ <nav className="max-w-[1269px]  md:mt-2 mt-64  p-4 flex flex-col font-Onest  md:flex-row justify-between items-center border-t-2 md:gap-4">
 
    <div className=' w-[250px]  '>
     <p className='text-[12px] font-[400] text-Primary'>Home - Incidents - New Incident</p>
@@ -30,7 +30,7 @@ const HandalerClick=()=>{
         <div className='w-[98px] h-[5px] bg-secondary rounded-[10px]'></div>
       </div>
 
-    <div className='flex justify-between mt-10 gap-[14px] '>
+    <div className='flex justify-between mt-10 md:mt-0 gap-[14px] '>
         <button onClick={Handaler} className='w-[139px] h-[42px]  rounded-[6px] border-2 md:border-blue-200 border-blue-300'>Back</button>
         <button onClick={HandalerClick} className='w-[139px] h-[42px] rounded-[6px] bg-secondary text-white'>Next Step</button>
     </div>
