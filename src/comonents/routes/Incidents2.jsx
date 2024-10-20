@@ -16,14 +16,14 @@ const HandalerClick=()=>{
   return (
     <>
     <Navbar/>
-    <div className='md:w-[1269px]  h-[41px] font-Onest   items-center'>
-       <div className='text-center text-[32px] font-[700] mt-16 text-black'>Let’s get started</div>
-       <div className='text-center  ml-[400px] flex justify-center text-[15px] w-[468px] font-[700] mt-2 text-Primary'> <p>Lorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit gene</p></div>
+    <div className='md:w-[1269px]  md:h-[41px] font-Onest   md:items-center'>
+       <div className='text-center text-[32px] font-[700] mt-[250px] md:mt-16 text-black'>Let’s get started</div>
+       <div className='text-center  md:ml-[400px] flex justify-center text-[15px] w-[468px] font-[700] mt-2 text-Primary'> <p>Lorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit general sac mascho werhoLorem ipsum dolar sit gene</p></div>
     </div>
 
-    <div className='w-[609px]  h-[29px]  absolute left-[520px] top-[280px]  '> <img className='text-[#E4E4E7]' src="./image/group.png" alt="" /> </div>
+    <div className='md:w-[609px]  md:h-[29px] absolute md:left-[520px] top-[435px]  md:top-[280px]  '> <img className='text-[#E4E4E7]' src="./image/group.png" alt="" /> </div>
 
-    <div className='w-[815px] h-[270px] absolute left-[400px] top-[340px]  flex justify-between'>
+    <div className='md:w-[815px] md:h-[270px] absolute left-[150px] md:left-[400px] top-[480px] md:top-[340px]  flex flex-col md:flex-row justify-between'>
 
         <div className='w-[235px] h-[269px] border-2 ' >
             <img className='mt-4 ml-2' src="./image/Frame (1).png" alt="" />

@@ -18,7 +18,7 @@ const Chat = () => {
 
   return (
     <>
-   {isvisiable && <div className='w-[331px]  h-[475px] absolute left-[13px] md:ml-[980px] top-[2620px]  md:mt-[-2000px]'>
+   {isvisiable && <div className='w-[331px]  h-[475px] absolute left-[13px] md:ml-[1090px] top-[2620px]  md:mt-[-2140px]'>
         <div className='bg-secondary w-full h-[63px] rounded-t-[12px] px-[15px] pt-4 text-white items-center text-[25px] font-[700] font-Onest'> <h1>Chat with Cypher</h1></div>
         
         <div className='h-[57px] w-[213px] absolute  left-[108px] top-[70px] rounded-[7px] text-[12px] leading-[19px] font-Onest font-[700] pl-2 py-2 bg-semiblack text-white' > <p>Lorem ipsum dolar sit general sac mascho werho</p>
