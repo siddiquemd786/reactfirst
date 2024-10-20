@@ -7,6 +7,7 @@ function Navtitle({title, text}) {
     <p className='text-[12px] w-[137px] text-Primary text-start,'>{title}</p>
     <h1 className='text-[26px] w-[137px] text-dashcolor font-[700] text-start' >{text}</h1>
 
+
 </div>
   )
 }
