@@ -1,8 +1,12 @@
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
 export default defineConfig({
   plugins: [react()],
-  build: {
-    rollupOptions: {
-      external: [],  // Or just remove this line entirely if not needed
+  resolve: {
+    alias: {
+      // If there are any import path issues
+      'react-router-dom': 'react-router-dom',
     },
   },
 });
